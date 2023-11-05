@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/introduction-au-droit">
-            Docusaurus Tutorial - 5min ⏱️
+            Lire la théorie juridique ⚖️
           </Link>
         </div>
       </div>
@@ -32,7 +32,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}, le Portail pour les étudiants en droit.`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>

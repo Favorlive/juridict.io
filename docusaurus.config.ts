@@ -38,14 +38,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Favorlive/juridict.io',
+            'https://github.com/Favorlive/juridictio',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Favorlive/juridict.io',
+            'https://github.com/Favorlive/juridictio',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -58,19 +58,19 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Juridict.io',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Logo du site juridict.io',
         src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
+          position: 'right',
+          label: 'Théories juridiques',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Actualités juridiques', position: 'right'},
         {
           href: 'https://github.com/Favorlive/juridict.io',
           label: 'GitHub',
@@ -82,46 +82,46 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Base de connaissances',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Théorie juridique',
               to: '/docs/introduction-au-droit',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Réseaux sociaux',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Facebook',
+              href: 'https://facebook.com/juridict.io',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Instragram',
+              href: 'https://instagram.com/juridict.io',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Linkedin',
+              href: 'https://linkedin.com/company/juridictio',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Plus',
           items: [
             {
-              label: 'Blog',
+              label: 'Actualités juridiques',
               to: '/blog',
             },
-            {
+            /*{
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+              href: 'https://github.com/favorlive/juridictio',
+            },*/
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} All rights Reserved.`,
     },
     prism: {
       theme: prismThemes.github,

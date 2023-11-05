@@ -10,32 +10,31 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Documentation juridique',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Juridict.io a été concu pour être une base de connaissances juridiques pour les étudiants en droit belge.
+        
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Facile à utiliser',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       L'arborescence permet de facilement naviguer dans les domaines juridiques.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Contribuer à la rédaction',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Il sera prochainement possible de proposer vos contributions. 
+        Nous aurons besoin de vous ! Cela sera précieux. 
       </>
     ),
   },
