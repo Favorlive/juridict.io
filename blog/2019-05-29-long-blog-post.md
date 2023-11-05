@@ -1,7 +1,7 @@
 ---
 slug: long-blog-post
-title: Long Blog Post
-authors: endi
+title: 2e billet de blog (exemple)
+authors: dmanfroy
 tags: [hello, docusaurus]
 ---
 

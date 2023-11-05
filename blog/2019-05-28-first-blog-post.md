@@ -1,11 +1,11 @@
 ---
 slug: first-blog-post
-title: First Blog Post
+title: 3er billet de blog (exemple)
 authors:
-  name: Gao Wei
+  name: Favor
   title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
+  url: https://github.com/favorlive
+
 tags: [hola, docusaurus]
 ---
 
