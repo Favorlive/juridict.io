@@ -8,3 +8,10 @@ studentacademy:
   title: ASBL
   url: https://studentacademy.be/conseils-pour-reussir-du-1er-coup-ta-premiere-annee-de-droit/
   image_url: https://studentacademy.be/wp-content/themes/studac/img/logo.svg
+
+const-court-comm-press:
+  name: Cour Constitutionnelle
+  title: Communiqué de presse (cellule média)
+  url: https://www.const-court.be/fr/media/press-releases-concerning-the-judgments
+  image_url: https://www.const-court.be/_nuxt/img/logo-const.7b10384.png
+  author_url: https://www.const-court.be/fr/
